@@ -5,11 +5,13 @@ pull - pentru a aduce informatiile proaspat actualizate de pe github
 commit - pentru a confirma schimbarile locale
 push - pentru a aduce modificarile locale in github
 merge - aduce informatiile din branch-ul x in branch-ul y
+add - adauga fisierul ca atlfel nu merge, e cu rosu. Ca sa verificam ca este in regula, scriem git status si trebuie sa l vedem pe verde
 
 EXEMPLU PRACTIC:
 
 git pull
 nano fisier
+git add fisier
 git commit -m "Mesaj pentru anunt"
 git pull
 git push
