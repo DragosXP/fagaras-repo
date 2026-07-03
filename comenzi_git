@@ -1,0 +1,24 @@
+ORDINE: pull - commit - pull - push
+
+checkout - pentru a schimba branch-ul
+pull - pentru a aduce informatiile proaspat actualizate de pe github
+commit - pentru a confirma schimbarile locale
+push - pentru a aduce modificarile locale in github
+merge - aduce informatiile din branch-ul x in branch-ul y
+
+EXEMPLU PRACTIC:
+
+git pull
+nano fisier
+git commit -m "Mesaj pentru anunt"
+git pull
+git push
+
+
+git checkout main
+git pull
+git merge Gabriela
+git pull
+git push
+
+
